@@ -26,7 +26,7 @@ skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,captive.a
 # TUN旁路路由。Shadowrocket TUN接口只能处理TCP协议。使用此选项可以绕过指定的IP范围，让其他协议通过。
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
 # DNS覆写。使用普通DNS或加密DNS（如doh、doq、dot等）覆盖默认的系统DNS。
-dns-server = 223.5.5.5,223.6.6.6,119.29.29.29,8.8.8.8,8.8.4.4
+dns-server = 8.8.8.8,8.8.4.4
 # 备用DNS。当覆写DNS查询失败或查询时间超过2秒，Shadowrocket会自动回退备用DNS。
 fallback-dns-server = system,1.1.1.1,9.9.9.9
 # 启用IPv6支持。
@@ -55,7 +55,7 @@ udp-policy-not-supported-behaviour = REJECT
 stun-response-ip = 1.1.1.1
 stun-response-ipv6 = ::1
 # 添加自动更新链接
-update-url = 你的规则配置文件URL
+update-url = https://github.com/Monohitoxx/hongkong-ai-rules/edit/main/hongkong-ai.conf.txt
 
 [Rule]
 # Google AI Service
