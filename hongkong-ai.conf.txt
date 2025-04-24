@@ -28,7 +28,7 @@ tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 17
 # DNS覆写。使用普通DNS或加密DNS（如doh、doq、dot等）覆盖默认的系统DNS。
 dns-server = 8.8.8.8,8.8.4.4
 # 备用DNS。当覆写DNS查询失败或查询时间超过2秒，Shadowrocket会自动回退备用DNS。
-fallback-dns-server = system,1.1.1.1,9.9.9.9
+fallback-dns-server = system,1.1.1.1
 # 启用IPv6支持。
 ipv6 = false
 # 首选IPv6。
@@ -59,8 +59,6 @@ update-url = https://github.com/Monohitoxx/hongkong-ai-rules/edit/main/hongkong-
 
 [Rule]
 # Google AI Service
-DOMAIN-SUFFIX,google.com,PROXY
-DOMAIN-SUFFIX,accounts.google.com,PROXY
 DOMAIN-SUFFIX,googletagmanager.com,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
 DOMAIN-SUFFIX,play.google.com,PROXY
@@ -90,3 +88,8 @@ FINAL,DIRECT
 
 [Host]
 localhost = 127.0.0.1
+
+[URL Rewrite]
+# Google搜索引擎防跳转的重写。
+^https?://(www.)?g.cn https://www.google.com 302
+^https?://(www.)?google.cn https://www.google.com 302
