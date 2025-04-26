@@ -26,9 +26,9 @@ skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local,captive.a
 # TUN旁路路由。Shadowrocket TUN接口只能处理TCP协议。使用此选项可以绕过指定的IP范围，让其他协议通过。
 tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
 # DNS覆写。使用普通DNS或加密DNS（如doh、doq、dot等）覆盖默认的系统DNS。
-dns-server = 8.8.8.8,8.8.4.4
+dns-server = system
 # 备用DNS。当覆写DNS查询失败或查询时间超过2秒，Shadowrocket会自动回退备用DNS。
-fallback-dns-server = system,1.1.1.1
+fallback-dns-server = 8.8.8.8,1.1.1.1
 # 启用IPv6支持。
 ipv6 = false
 # 首选IPv6。
@@ -45,10 +45,6 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 # TUN包含路由。
 tun-included-routes = 
-# 总是真实IP。
-always-real-ip = *.srv.nintendo.net,*.stun.playstation.net,xbox.*.microsoft.com,*.xboxlive.com*.msftncsi.com,*.msftconnecttest.com,*.mcdn.bilivideo.cn
-# DNS劫持。
-hijack-dns = 8.8.8.8:53,8.8.4.4:53
 # UDP转发时的规则
 udp-policy-not-supported-behaviour = REJECT
 # STUN响应地址。防止WebRTC泄露
