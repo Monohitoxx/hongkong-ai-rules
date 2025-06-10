@@ -39,7 +39,6 @@ update-url = https://github.com/Monohitoxx/hongkong-ai-rules/edit/main/hongkong-
 [Rule]
 # Google AI Service
 DOMAIN-SUFFIX,googletagmanager.com,PROXY
-DOMAIN-SUFFIX,googleapis.com,PROXY
 DOMAIN-SUFFIX,play.google.com,PROXY
 DOMAIN-SUFFIX,ai.google.dev,PROXY
 DOMAIN-SUFFIX,google-analytics.com,PROXY
