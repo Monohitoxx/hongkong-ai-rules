@@ -67,4 +67,10 @@ rules:
   - DOMAIN,turn.livekit.cloud,🛑 Hong Kong AI Rules
   - IP-CIDR,24.199.123.28/32,🛑 Hong Kong AI Rules
   - IP-CIDR,64.23.132.171/32,🛑 Hong Kong AI Rules
+  - DOMAIN,cdn.usefathom.com,🛑 Hong Kong AI Rules
+  - DOMAIN,servd-anthropic-website.b-cdn.net,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,anthropic.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,claude.ai,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,claudeusercontent.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,anthropic.systems,🛑 Hong Kong AI Rules
   - MATCH,DIRECT
