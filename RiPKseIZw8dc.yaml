@@ -65,8 +65,8 @@ rules:
   - DOMAIN-SUFFIX,sentry.io,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,stripe.com,🛑 Hong Kong AI Rules
   - DOMAIN,turn.livekit.cloud,🛑 Hong Kong AI Rules
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
+  - IP-CIDR,24.199.123.28/32,DIRECT,no-resolve
+  - IP-CIDR,64.23.132.171/32,DIRECT,no-resolve
   # IP-ASN 如非 Clash Meta 請移除
   # - IP-ASN,20473,no-resolve
   - FINAL,DIRECT
