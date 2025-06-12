@@ -23,8 +23,8 @@ proxy-groups:
   - name: 🛑 Hong Kong AI Rules
     type: select
     proxies:
-      - REJECT
-      - DIRECT
+      - ♻️ Auto Select
+      - 🇸🇬 Mono Nube SG
 rules:
   - DOMAIN-SUFFIX,googletagmanager.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,play.google.com,🛑 Hong Kong AI Rules
