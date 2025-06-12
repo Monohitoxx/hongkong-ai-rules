@@ -29,14 +29,7 @@ proxy-groups:
       - 🇸🇬 Mono Nube SG
 rules:
     #Google AI
-  - DOMAIN-SUFFIX,content-developerprofiles-pa.googleapis.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,developerprofiles-pa.googleapis.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,addons-pa.clients6.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,analytics.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,people-pa.clients6.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,waa-pa.clients6.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,fonts.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,googleapis.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,gstatic.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,googletagmanager.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,play.google.com,🛑 Hong Kong AI Rules
