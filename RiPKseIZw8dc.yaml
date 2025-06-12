@@ -2,10 +2,10 @@ port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
-log-level: info
+log-level: debug
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 Mono Nube SG, server: trojan.haruhiro.tech, port: 443, type: trojan, password: !<str> 43837786, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Mono Nube SG, server: trojan.haruhiro.tech, port: 443, type: trojan, password: 43837786, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 Node 
     type: select
@@ -34,7 +34,6 @@ rules:
   - DOMAIN-SUFFIX,gemini.google.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,notebooklm.google.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,aistudio.google.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,gemini.google.com/,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,bard.google.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,deepmind.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,deepmind.google,🛑 Hong Kong AI Rules
@@ -65,8 +64,9 @@ rules:
   - DOMAIN-SUFFIX,segment.io,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,sentry.io,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,stripe.com,🛑 Hong Kong AI Rules
-  - DOMAIN-SUFFIX,turn.livekit.cloud,🛑 Hong Kong AI
+  - DOMAIN,turn.livekit.cloud,🛑 Hong Kong AI Rules
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,20473,no-resolve
+  # IP-ASN 如非 Clash Meta 請移除
+  # - IP-ASN,20473,no-resolve
   - FINAL,DIRECT
