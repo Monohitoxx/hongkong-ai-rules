@@ -37,6 +37,7 @@ rules:
   - DOMAIN-SUFFIX,bard.google.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,deepmind.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,deepmind.google,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,aistudio.google.com,🛑 Hong Kong AI Rules
   - DOMAIN,browser-intake-datadoghq.com,🛑 Hong Kong AI Rules
   - DOMAIN,chat.openai.com.cdn.cloudflare.net,🛑 Hong Kong AI Rules
   - DOMAIN,openai-api.arkoselabs.com,🛑 Hong Kong AI Rules
