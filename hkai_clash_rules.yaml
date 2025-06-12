@@ -31,6 +31,9 @@ rules:
     #Google AI
   - DOMAIN-SUFFIX,content-developerprofiles-pa.googleapis.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,developerprofiles-pa.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,developerprofiles-pa.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,fonts.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,gstatic.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,googletagmanager.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,play.google.com,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,ai.google.dev,🛑 Hong Kong AI Rules
