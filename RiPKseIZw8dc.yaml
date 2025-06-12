@@ -67,3 +67,4 @@ rules:
   - DOMAIN,turn.livekit.cloud,🛑 Hong Kong AI Rules
   - IP-CIDR,24.199.123.28/32,🛑 Hong Kong AI Rules
   - IP-CIDR,64.23.132.171/32,🛑 Hong Kong AI Rules
+  - MATCH,DIRECT
