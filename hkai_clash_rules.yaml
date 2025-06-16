@@ -44,6 +44,14 @@ rules:
   - DOMAIN-SUFFIX,deepmind.google,🛑 Hong Kong AI Rules
   - DOMAIN-SUFFIX,aistudio.google.com,🛑 Hong Kong AI Rules
   - DOMAIN,browser-intake-datadoghq.com,🛑 Hong Kong AI Rules
+    #Mobile Gemini apps
+    #DOMAIN-SUFFIX,googleapis.com,PROXY
+  - DOMAIN,DOMAIN-SUFFIX,googleusercontent.com,🛑 Hong Kong AI Rules
+  - DOMAIN,DOMAIN-SUFFIX,oauth2.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN,DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN,DOMAIN-SUFFIX,notifications-pa.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN,DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🛑 Hong Kong AI Rules
+  
     #ChatGPT
   - DOMAIN,chat.openai.com.cdn.cloudflare.net,🛑 Hong Kong AI Rules
   - DOMAIN,openai-api.arkoselabs.com,🛑 Hong Kong AI Rules
