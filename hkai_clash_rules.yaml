@@ -46,11 +46,20 @@ rules:
   - DOMAIN,browser-intake-datadoghq.com,🛑 Hong Kong AI Rules
     #Mobile Gemini apps
     #DOMAIN-SUFFIX,googleapis.com,PROXY
-  - DOMAIN,DOMAIN-SUFFIX,googleusercontent.com,🛑 Hong Kong AI Rules
-  - DOMAIN,DOMAIN-SUFFIX,oauth2.googleapis.com,🛑 Hong Kong AI Rules
-  - DOMAIN,DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,🛑 Hong Kong AI Rules
-  - DOMAIN,DOMAIN-SUFFIX,notifications-pa.googleapis.com,🛑 Hong Kong AI Rules
-  - DOMAIN,DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,googleusercontent.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,oauth2.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,notifications-pa.googleapis.com,🛑 Hong Kong AI Rules
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🛑 Hong Kong AI Rules
+    # Google One AI
+#  - DOMAIN-SUFFIX,accounts.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,ogs.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,payments.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,ogads-pa.client6.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,client2.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,client4.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,one.google.com,🛑 Hong Kong AI Rules
+#  - DOMAIN-SUFFIX,signaler-pa.clients6.google.com,🛑 Hong Kong AI Rules
   
     #ChatGPT
   - DOMAIN,chat.openai.com.cdn.cloudflare.net,🛑 Hong Kong AI Rules
