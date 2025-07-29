@@ -1,1 +1,2 @@
-# hongkong-ai-rules
+# hongkong-ai-rules v2
+
