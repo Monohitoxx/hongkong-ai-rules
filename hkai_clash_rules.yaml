@@ -7,7 +7,7 @@ mode: Rule
 log-level: debug
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 Mono Nube SG, server: trojan.haruhiro.tech, port: 443, type: trojan, password: 43837786, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 Mono Test SG, server: xxx.com, port: 443, type: trojan, password: 12345678, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 Node 
     type: select
